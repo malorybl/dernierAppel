@@ -69,7 +69,7 @@ php artisan migrate --seed
 
 
 ## Installation du frontend Vue 3
-# Aller dans le dossier du projet
+### Aller dans le dossier du projet
 ```bash
 cd dernierAppel
 ```
@@ -96,7 +96,7 @@ npm install
    cd dernierAppel
    composer run dev
    ```  
-   par défaut sur  http://localhost:8000
+   Application disponible sur :  http://localhost:8000
 
 
 ## Tester l'application
