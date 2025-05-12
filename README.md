@@ -37,48 +37,48 @@ Bienvenue dans ce projet d'application web narrative interactive développée av
 
 ---
 
-## Installation
+# Installation
 
 ### 1. Cloner le dépôt
 
 ```bash
 git clone https://github.com/ton-utilisateur/dernier-appel.git
 ```
-### Installation du backend Laravel
-# Aller dans le dossier du projet
+## Installation du backend Laravel
+### Aller dans le dossier du projet
 ```bash
 cd dernierAppel
 ```
 
-# Installer les dépendances PHP
+### Installer les dépendances PHP
 ```bash
 composer install
 ```
 
-# Copier et configurer le fichier d'environnement
+### Copier et configurer le fichier d'environnement
 ```bash
 cp .env.example .env
 php artisan key:generate
 ```
 
 
-# Lancer les migrations
+### Lancer les migrations
 ```bash
 php artisan migrate --seed
 ```
 
 
-### Installation du frontend Vue 3
+## Installation du frontend Vue 3
 # Aller dans le dossier du projet
 ```bash
 cd dernierAppel
 ```
 
-# Installer les dépendances JS
+### Installer les dépendances JS
 ```bash
 npm install
 ```
-### Lancer l'application
+## Lancer l'application
 
 1.1 **Démarrer le back-end**  
    ```bash
@@ -99,7 +99,7 @@ npm install
    par défaut sur  http://localhost:8000
 
 
-### Tester l'application
+## Tester l'application
 
 1. Inscrivez-vous ou connectez-vous pour débuter votre expérience.
 
@@ -107,7 +107,7 @@ npm install
 
 3. Faites vos choix et voyez comment ils influencent le cours de l'histoire.
 
-### 🤝 Contribution
+# 🤝 Contribution
 
 Ce projet est en constante évolution, et nous sommes ouverts à toutes les suggestions pour l’améliorer.  
 Que ce soit pour corriger un bug, proposer une nouvelle fonctionnalité, améliorer l'expérience utilisateur ou optimiser le code : **toutes les idées sont les bienvenues**.
