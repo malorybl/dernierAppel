@@ -75,29 +75,28 @@ cd dernierAppel
 ```
 
 # Installer les dépendances JS
+```bash
 npm install
-
+```
 ### Lancer l'application
 
 1.1 **Démarrer le back-end**  
    ```bash
    php artisan serve
    ```  
-   par défaut sur http://127.0.0.1:8000
 
 1.2 **Démarrer le front-end**  
    ```bash
-   cd frontend
+   cd dernierAppel
    npm run serve
    ```  
-   par défaut sur http://localhost:8080
 
 2.0 **Démarrer le front-end et le back-end**  
    ```bash
    cd dernierAppel
    composer run dev
    ```  
-   par défaut sur http://127.0.0.1:8000 et http://localhost:8080
+   par défaut sur  http://localhost:8000
 
 
 ### Tester l'application
